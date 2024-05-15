@@ -13,7 +13,7 @@ while counter > 0:
             bing.download_images(
                 specie.strip(),
                 limit = 500,
-                output_dir = "dataset/{}/".format(specie.strip())
+                output_dir = "dataset/{}/".format(specie.strip()),
             )
             # Delete specie just downloaded and rewrite the file
             lines = data.readlines()

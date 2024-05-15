@@ -1,12 +1,14 @@
 *.csv
+*.rar
+
 *.jpg
 *.jpeg
-*.webp
 *.png
 *.gif
+*.bmp
+
+*.webp
 *.jpe
 *.jfjf
 *.jfif
 *.tiff
-*.bmp
-*.rar
