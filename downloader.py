@@ -1,4 +1,4 @@
-import bing
+import bing_downloader as bing
 
 counter = 0
 with open("data.txt", 'r', encoding='utf-8') as data:
@@ -14,6 +14,7 @@ while counter > 0:
                 specie.strip(),
                 limit = 500,
                 output_dir = "dataset/{}/".format(specie.strip()),
+                file_type=['png','jpg','jpeg','gif','bmp']
             )
             # Delete specie just downloaded and rewrite the file
             lines = data.readlines()
